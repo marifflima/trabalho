@@ -1,0 +1,144 @@
+
+      body {
+      background-color: rgb(59, 57, 57)
+    }
+    button{
+      cursor: pointer;
+      background-color: transparent;
+      border: transparent;
+   }
+   header{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      padding: 10px 20px;
+      color: rgb(255, 255, 255);
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 15px;
+      font-weight: lighter;
+      line-height: 0.5;
+}
+music-box {
+   overflow-x: auto;
+   overflow-y: flex;
+   display: flex;
+   padding: 10px;
+   border-radius: 8px;
+   background-color: #141313;
+   height: 300px;
+   width: 100%;
+   padding: 20px;
+}
+.main-image {
+   display: flex;
+   border-radius: 20px;
+   width: 400px;
+   height: 200px;
+   position: relative;
+}
+.Thumb-images{
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    display: grid;
+    display: flex;
+    position: relative;
+}
+   footer {
+      background-color: #141313;;
+      padding: 20px;
+      text-align: center;
+      height: 30px;
+  }
+  .footer-container {
+      font-family: "Bebas Neue", sans-serif;
+         font-size: 18px;
+         font-weight: lighter;
+         line-height: 0.5;
+         color: rgb(255, 255, 255);
+         margin-bottom: 0px;
+   }
+   .footer-button{
+      display: center;
+   }
+   .carrossel {
+   display: flex;
+   overflow-x: hidden;
+   padding: 15px;
+   border-radius: 8px;
+   margin-top: 0px;
+}
+.imagens {
+   display: flex;
+   border-radius: 8px;
+   max-width: 150px;
+   height: 150px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 0px;
+   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+body{
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 18px;
+            font-weight: lighter;
+            line-height: 0.5;
+            color: rgb(255, 255, 255);
+            margin-bottom: 0px;
+            margin-left: 30px;
+      }
+.carro {
+     display: flex;
+     overflow-x: hidden;
+     padding: 15px;
+     border-radius: 8px;
+     margin-top: 0px;
+  }
+  .image {
+     display: flex;
+     border-radius: 8px;
+     max-width: 150px;
+     height: 150px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 0px;
+     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  }
+  footer {
+    background-color: #141313;;
+    padding: 20px;
+    text-align: center;
+    height: 30px;
+}
+
+.footer {
+   background-color: #141313;;
+   padding: 20px;
+   text-align: center;
+   height: 30px;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer-button {
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    width: auto;
+    margin-bottom: 1px;
+}
+
+.footer-button i {
+    font-size: 20px;
+}
