@@ -30,13 +30,6 @@ music-box {
    width: 100%;
    padding: 20px;
 }
-.main-image {
-   display: flex;
-   border-radius: 20px;
-   width: 400px;
-   height: 200px;
-   position: relative;
-}
 .Thumb-images{
     height: 150px;
     width: 150px;
