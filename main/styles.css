@@ -19,7 +19,7 @@
       font-weight: lighter;
       line-height: 0.5;
 }
-music-box {
+.music-box {
    overflow-x: auto;
    overflow-y: flex;
    display: flex;
