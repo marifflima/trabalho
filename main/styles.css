@@ -67,32 +67,25 @@ header{
    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
-.movies{
-   display: flex;
-   border-radius: 8px;
-   max-width: 200px;
-   height: 100px;
-   margin: 10px;
-   box-shadow: 5px 5px 8px black;
-   font-family: "Bebas Neue", sans-serif;
-   font-size: 18px;
-   font-weight: lighter;
-   line-height: 0.5;
-   color: rgb(255, 255, 255);
-   margin-bottom: 0px;
-   margin-left: 30px;
+.movies {
+  padding: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
 }
 
 .images {
-   display: flex;
-   border-radius: 8px;
-   max-width: 150px;
-   height: 150px;
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-top: 0px;
-   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
+
+.movie-image {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
 
 body{
    font-family: "Bebas Neue", sans-serif;
