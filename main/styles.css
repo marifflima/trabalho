@@ -78,7 +78,7 @@ header{
    margin-top: 0px;
    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
    aspect-ratio: 16 / 9;
-   object-fit: cover;
+   object-fit: contain;
 }
 body{
    font-family: "Bebas Neue", sans-serif;
