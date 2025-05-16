@@ -38,17 +38,7 @@ header{
    display: flex;
    position: relative;
 }
-.footer-container{
-   font-family: "Bebas Neue", sans-serif;
-   font-size: 18px;
-   font-weight: lighter;
-   line-height: 0.5;
-   color: rgb(255, 255, 255);
-   margin-bottom: 0px;
-}
-.footer-button{
-   display: center;
-}
+
 .carrossel{
    display: flex;
    overflow-x: hidden;
@@ -59,7 +49,7 @@ header{
 .imagens {
    display: flex;
    border-radius: 8px;
-   max-width: 150px;
+   width: 150px;
    height: 150px;
    margin-left: 10px;
    margin-right: 10px;
@@ -95,9 +85,8 @@ footer{
    display: flex;
    align-items: center;
    gap: 10px;
-   height: 30px;
+   height: auto;
    width: auto;
-   margin-bottom: 1px;
 }
 
 .footer-button i{
