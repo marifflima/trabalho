@@ -32,7 +32,6 @@ header{
    background-color: #141313;
    height: 300px;
    width: 100%;
-   padding: 20px;
 }
 .Thumb-images{
    height: 150px;
@@ -46,7 +45,7 @@ header{
 
 .carrossel{
    display: flex;
-   overflow-x: hidden;
+   overflow-x: auto;
    padding: 15px;
    border-radius: 8px;
    margin-top: 0px;
