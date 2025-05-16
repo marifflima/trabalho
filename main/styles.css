@@ -67,35 +67,6 @@ header{
    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
-.movies {
-      padding: 20px;
-    }
-
-.movies h1 {
-      font-size: 32px;
-      margin-bottom: 20px;
-}
-
-.images {
-   display: flex;
-   flex-wrap: nowrap;        
-   overflow-x: auto;         
-   gap: 15px;    
-   display: grid;
-   display: flex;
-   position: relative;            
-}
-
-.movie-image {
-      max-width: 250px;              
-      height: 140px;
-      object-fit: cover;         
-      border-radius: 10px;
-      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
-      flex-shrink: 0;            
-}
-
-
 body{
    font-family: "Bebas Neue", sans-serif;
    font-size: 18px;
