@@ -60,7 +60,7 @@ header{
    margin-top: 0px;
    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
 }
-.movies{
+.Movies{
    display: flex;
    overflow-x: auto;
    padding: 15px;
@@ -71,7 +71,7 @@ header{
 .images{
    display: flex;
    border-radius: 8px;
-   width: 200px;
+   width: 400px;
    height: 150px;
    margin-left: 10px;
    margin-right: 10px;
