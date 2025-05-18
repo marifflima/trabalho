@@ -22,7 +22,11 @@ header{
    font-size: 15px;
    font-weight: lighter;
    line-height: 0.5;
+   -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none; 
 }
+
 .music-box{
    overflow-x: auto;
    overflow-y: flex;
@@ -73,6 +77,12 @@ header{
    height: auto;
    overflow-y: hidden; 
    scroll-snap-type: x mandatory;
+   -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none; 
+}
+.carousel::-webkit-scrollbar {
+  display: none;
 }
 
 .images{
