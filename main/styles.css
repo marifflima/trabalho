@@ -49,6 +49,9 @@ header{
    padding: 15px;
    border-radius: 8px;
    margin-top: 0px;
+   height: auto;
+   overflow-y: hidden; 
+   scroll-snap-type: x mandatory;
  }
 .imagens {
    display: flex;
@@ -59,6 +62,7 @@ header{
    margin-right: 10px;
    margin-top: 0px;
    margin-bottom: 10px;
+   scroll-snap-align: start;
 }
 .Movies{
    display: flex;
@@ -66,6 +70,9 @@ header{
    padding: 15px;
    border-radius: 8px;
    margin-top: 0px;
+   height: auto;
+   overflow-y: hidden; 
+   scroll-snap-type: x mandatory;
 }
 
 .images{
@@ -79,6 +86,7 @@ header{
    aspect-ratio: 16 / 9;
    object-fit: cover;
    margin-bottom: 10px;
+   scroll-snap-align: start;
 }
 
 .legenda {
